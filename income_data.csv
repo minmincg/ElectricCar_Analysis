@@ -1,0 +1,53 @@
+State,Income,Income Per Capita,bin
+Alabama,54943.0,30458.0,low
+Alaska,80287.0,39236.0,medium
+Arizona,65913.0,34644.0,medium
+Arkansas,52123.0,29210.0,low
+California,84097.0,41276.0,medium
+Colorado,80184.0,42807.0,medium
+Connecticut,83572.0,47869.0,high
+Delaware,72724.0,38917.0,medium
+District of Columbia,93547.0,63793.0,high
+Florida,61777.0,35216.0,medium
+Georgia,65030.0,34516.0,medium
+Hawaii,88005.0,39045.0,medium
+Idaho,63377.0,31509.0,medium
+Illinois,72563.0,39571.0,medium
+Indiana,61944.0,32537.0,medium
+Iowa,65429.0,34817.0,medium
+Kansas,64521.0,34968.0,medium
+Kentucky,55454.0,30634.0,medium
+Louisiana,53571.0,30340.0,low
+Maine,63182.0,36171.0,medium
+Maryland,91431.0,45915.0,medium
+Massachusetts,89026.0,48617.0,high
+Michigan,63202.0,34768.0,medium
+Minnesota,77706.0,41204.0,medium
+Mississippi,49111.0,26807.0,low
+Missouri,61043.0,33770.0,medium
+Montana,60560.0,34423.0,medium
+Nebraska,66644.0,35189.0,medium
+Nevada,65686.0,34621.0,medium
+New Hampshire,83449.0,43877.0,medium
+New Jersey,89703.0,46691.0,medium
+New Mexico,54020.0,29624.0,low
+New York,75157.0,43208.0,medium
+North Carolina,60516.0,34209.0,medium
+North Dakota,68131.0,37343.0,medium
+Ohio,61938.0,34526.0,medium
+Oklahoma,56956.0,30976.0,medium
+Oregon,70084.0,37816.0,medium
+Pennsylvania,67587.0,37725.0,medium
+Rhode Island,74489.0,39603.0,medium
+South Carolina,58234.0,32823.0,medium
+South Dakota,63920.0,33468.0,medium
+Tennessee,58516.0,32908.0,medium
+Texas,67321.0,34255.0,medium
+Utah,79133.0,33378.0,medium
+Vermont,67674.0,37903.0,medium
+Virginia,80615.0,43267.0,medium
+Washington,82400.0,43817.0,medium
+West Virginia,50884.0,28761.0,low
+Wisconsin,67080.0,36754.0,medium
+Wyoming,68002.0,36288.0,medium
+Puerto Rico,21967.0,14047.0,low
