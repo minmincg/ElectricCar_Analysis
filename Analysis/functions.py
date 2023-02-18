@@ -1,7 +1,8 @@
 import pandas as pd
 import hvplot.pandas
+import matplotlib.pyplot as plt
 import geopandas as gpd
-import scipy
+import scipy.stats as st
 
 def heatmap(df,state_column_name,outputcolumn,cmap="plasma"):
     """ df:The DataFrame where data will be pulled from
@@ -29,6 +30,19 @@ def heatmap(df,state_column_name,outputcolumn,cmap="plasma"):
                                )
     return map1
 
-def regression():
+def regression(df,col1,col2):
+    corr, pvalue = st.pearsonr(df[col1], df[col2])
+    print(f"The correlation between Gasoline Tax and Alternative Rate is {corr:.2f} with a p-value of {pvalue:.2f}")
+    model = st.linregress(df[col1], df[col2])
+    r_squared = model.rvalue**2
+
+    y_values = df[col1]*model[0]+model[1]
+    plt.figure(figsize=(15, 10))
+    plt.scatter(df[col1],df[col2])
+    plt.plot(df[col1],y_values,color="red")
+    plt.xlabel(col1)
+    plt.ylabel(col2)
+    plt.show()
+    print(f"The r-squared value of the linear regression model is {r_squared:.2f}")
     
     return
