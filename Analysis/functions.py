@@ -37,7 +37,7 @@ def regression(df,col1,col2):
     r_squared = model.rvalue**2
     print(f"The correlation between {col1} and {col2} is {model.rvalue:.2f} with a p-value of {model.pvalue:.2f}")
     y_values = df[col1]*model[0]+model[1]
-    plt.figure(figsize=(15, 10))
+    plt.figure(figsize=(10, 7))
     plt.scatter(df[col1],df[col2])
     plt.plot(df[col1],y_values,color="red")
     plt.xlabel(col1)
