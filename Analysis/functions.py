@@ -30,18 +30,18 @@ def heatmap(df,state_column_name,outputcolumn,cmap="plasma"):
                                )
     return map1
 
-def regression(df,col1,col2,xlabel,ylabel):
-    corr, pvalue = st.pearsonr(df[col1], df[col2])
-    print(f"The correlation between {xlabel} and {ylabel} is {corr:.2f} with a p-value of {pvalue:.2f}")
+
+def regression(df,col1,col2):
+    
     model = st.linregress(df[col1], df[col2])
     r_squared = model.rvalue**2
-
+    print(f"The correlation between {col1} and {col2} is {model.rvalue:.2f} with a p-value of {model.pvalue:.2f}")
     y_values = df[col1]*model[0]+model[1]
     plt.figure(figsize=(15, 10))
     plt.scatter(df[col1],df[col2])
     plt.plot(df[col1],y_values,color="red")
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
+    plt.xlabel(col1)
+    plt.ylabel(col2)
     plt.show()
     print(f"The r-squared value of the linear regression model is {r_squared:.2f}")
     
