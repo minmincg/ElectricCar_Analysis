@@ -46,7 +46,7 @@ def regression(df,col1,col2):
     plt.ylabel(col2)
     plt.title(f"{col1} VS {col2}")
     plt.grid(True)
-    plt.savefig(f"../Images/{col1.replace(' ','_').replace('/','')}_{col2.replace(' ','_').replace('/','')}_corr.png")
+    plt.savefig(f"../Images/{col1.replace(' ','_').replace('/','').replace('(%)','')}_{col2.replace(' ','_').replace('/','').replace('(%)','')}_corr.png")
     plt.show()
     print(f"The r-squared value of the linear regression model is {r_squared:.2f}")
     
