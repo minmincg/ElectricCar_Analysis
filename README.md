@@ -189,6 +189,12 @@ The correlation between Stations per vehicle and Alternative Rate(%) is 0.82 wit
 
 # Results
 
+We first did the correlations to see which variables were found along with a higher percent of alternative vehicle usage. After we decided which variables to use as predictors (considered variables that had a correlation coefficient of >.60 only) we did a point based data frame in which we could summerize the ones that had more points by weighing the different variables and suming them to see which state would be the best decision to build a new alternative vehicle store. Our final findings were:
+
+#### - District of columbia with a weighted total of 94.180727 points 
+####  - Massachusetts with a weighted total 90.796292 points
+####  - Washington  with a weighted total 87.621574 points
+
 Using the found correlations, we weighted an average to rate the states (100 points max)  
 
 ![final](Images/Final_Results.png)
