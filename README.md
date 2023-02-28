@@ -6,6 +6,9 @@
 * Javier Robles
 * Roberto Barron
 
+## Presentation
+[Click this link](https://www.canva.com/design/DAFbKUw7pWk/mx4a5NQnAH5CtdIgq43BlQ/edit?utm_content=DAFbKUw7pWk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Project Description/Outline: 
 
 Exhaustive research and analysis about electric and hybrid cars usage along the US comparing to different variables. 
