@@ -6,14 +6,14 @@
 * Javier Robles
 * Roberto Barron
 
-## Presentation
-[Click this link](https://www.canva.com/design/DAFbKUw7pWk/mx4a5NQnAH5CtdIgq43BlQ/edit?utm_content=DAFbKUw7pWk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Project Description/Outline: 
 
 Exhaustive research and analysis about electric and hybrid cars usage along the US comparing to different variables. 
 
 # Questions: 
+
+Main question: Which US State has a steeper tendency of hybrid and electric cars usage?
 
 Is there a correlation between electric car buying and demographic characteristics of the population suchs as:
 * education level
@@ -43,6 +43,8 @@ Is there a correlation between electric car buying and charging stations availab
 * Grouped Electric and Hybrid Electric vehicles into "Alternative vehicles"
 * Grouped Diesel and Gasoline vehicles into "Fuel vehicles" 
 * Measured state proportion of Alternative vehicles over Total vehicles.
+
+**% of Alternative Vehicles Rate was used to find correlation with other factors.**
 
 ### US vehicle type distribution pie chart:
 
@@ -130,6 +132,7 @@ F_onewayResult(statistic=1.7810678055878766, pvalue=0.1520002662561829)
 
 ![US gas](Images/gas_price_us.png)
 
+Constant upward trend on Gasoline Prices and this could be accelerating adoption of alternative vehicles.
 ---
 
 ### Gas tax by state
