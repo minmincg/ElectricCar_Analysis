@@ -208,6 +208,8 @@ The correlation between Stations per vehicle and Alternative Rate(%) is 0.82 wit
 
 We first did the correlations to see which variables were found along with a higher percent of alternative vehicle usage. After we decided which variables to use as predictors (considered variables that had a correlation coefficient of >.60 only) we did a point based data frame in which we could summerize the ones that had more points by weighing the different variables and suming them to see which state would be the best decision to build a new alternative vehicle store. Our final findings were:
 
+1) The highest correlated factors with % alternative rate in our analysis was % of grad and post grad school, a highest income per capita and Highest % of population of 31-50.
+
 #### - District of columbia with a weighted total of 94.180727 points 
 ####  - Massachusetts with a weighted total 90.796292 points
 ####  - Washington  with a weighted total 87.621574 points
@@ -215,3 +217,5 @@ We first did the correlations to see which variables were found along with a hig
 Using the found correlations, we weighted an average to rate the states (100 points max)  
 
 ![final](Images/Final_Results.png)
+
+In conclusion, crossing most important % of each state,  DC, Massachusetts and Washington are the states with a steeper tendency of hybrids and electric car usage.
