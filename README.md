@@ -44,11 +44,11 @@ Is there a correlation between electric car buying and charging stations availab
 * Grouped Diesel and Gasoline vehicles into "Fuel vehicles" 
 * Measured state proportion of Alternative vehicles over Total vehicles.
 
-**% of Alternative Vehicles Rate was used to find correlation with other factors.**
-
 ### US vehicle type distribution pie chart:
 
 ![Vehicle type pie](Images/Type_usage_pie.png)
+
+**% of Alternative Vehicles Rate was used to find correlation with other factors.**
 
 ### Heatmap of Alternative vehicles (%) by state:
 
@@ -132,8 +132,9 @@ F_onewayResult(statistic=1.7810678055878766, pvalue=0.1520002662561829)
 
 ![US gas](Images/gas_price_us.png)
 
-Constant upward trend on Gasoline Prices and this could be accelerating adoption of alternative vehicles.
+****Constant upward trend on Gasoline Prices and this could be accelerating adoption of alternative vehicles.****
 ---
+We can’t find a dataset with historical prices by state so we crossed Alternative rate vs Gas Tax by state but we found that are not correlated.
 
 ### Gas tax by state
 
@@ -147,19 +148,29 @@ Constant upward trend on Gasoline Prices and this could be accelerating adoption
 
 ### Political Party Preference
 
-#### T-Test:
+To find if there is correlation between Political preferences and % Alternative Rate we follow the next steps:
+1)	Taking an historical dataset (1976-2020) of Presidential elections it can be determined the “political preference” of each state according to the % of wins of specific party.
 
+
+
+
+#### T-Test:
+2)	States with democrat preference has a higher mean but we ran a T-test and found that statistically there was a difference in the means.
 Ttest_indResult(statistic=-5.036026493630137, pvalue=4.853783005218271e-05)
 
 #### Correlation:
+3)	Ran a correlation between states with democrat preference an % Alternative rate.
 
 The correlation between Democrat Wins(%) and Alternative Rate(%) is 0.64 with a p-value of 4.1007651001537584e-07  
 
 ![Democrat wins](Images/Democrat_Wins_Alternative_Rate_corr.png)
 
+ Findings: states with democrat preferences and % alternative rate have a high level of predictivity.
 ---
 
 ### Laws and incentives per state
+
+Crrelation analysis to found if there is correlation between states with higher incentives to own an alternative vehicle and we found those variables are highly predictivity among them.
 
 #### Correlation:
 
