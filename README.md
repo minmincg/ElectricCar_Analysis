@@ -6,14 +6,14 @@
 * Javier Robles
 * Roberto Barron
 
-## Presentation
-[Click this link](https://www.canva.com/design/DAFbKUw7pWk/mx4a5NQnAH5CtdIgq43BlQ/edit?utm_content=DAFbKUw7pWk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Project Description/Outline: 
 
 Exhaustive research and analysis about electric and hybrid cars usage along the US comparing to different variables. 
 
 # Questions: 
+
+Main question: Which US State has a steeper tendency of hybrid and electric cars usage?
 
 Is there a correlation between electric car buying and demographic characteristics of the population suchs as:
 * education level
@@ -47,6 +47,8 @@ Is there a correlation between electric car buying and charging stations availab
 ### US vehicle type distribution pie chart:
 
 ![Vehicle type pie](Images/Type_usage_pie.png)
+
+**% of Alternative Vehicles Rate was used to find correlation with other factors.**
 
 ### Heatmap of Alternative vehicles (%) by state:
 
@@ -130,7 +132,9 @@ F_onewayResult(statistic=1.7810678055878766, pvalue=0.1520002662561829)
 
 ![US gas](Images/gas_price_us.png)
 
+****Constant upward trend on Gasoline Prices and this could be accelerating adoption of alternative vehicles.****
 ---
+We can’t find a dataset with historical prices by state so we crossed Alternative rate vs Gas Tax by state but we found that are not correlated.
 
 ### Gas tax by state
 
@@ -144,19 +148,29 @@ F_onewayResult(statistic=1.7810678055878766, pvalue=0.1520002662561829)
 
 ### Political Party Preference
 
-#### T-Test:
+To find if there is correlation between Political preferences and % Alternative Rate we follow the next steps:
+1)	Taking an historical dataset (1976-2020) of Presidential elections it can be determined the “political preference” of each state according to the % of wins of specific party.
 
+
+
+
+#### T-Test:
+2)	States with democrat preference has a higher mean but we ran a T-test and found that statistically there was a difference in the means.
 Ttest_indResult(statistic=-5.036026493630137, pvalue=4.853783005218271e-05)
 
 #### Correlation:
+3)	Ran a correlation between states with democrat preference an % Alternative rate.
 
 The correlation between Democrat Wins(%) and Alternative Rate(%) is 0.64 with a p-value of 4.1007651001537584e-07  
 
 ![Democrat wins](Images/Democrat_Wins_Alternative_Rate_corr.png)
 
+ Findings: states with democrat preferences and % alternative rate have a high level of predictivity.
 ---
 
 ### Laws and incentives per state
+
+Crrelation analysis to found if there is correlation between states with higher incentives to own an alternative vehicle and we found those variables are highly predictivity among them.
 
 #### Correlation:
 
@@ -194,6 +208,8 @@ The correlation between Stations per vehicle and Alternative Rate(%) is 0.82 wit
 
 We first did the correlations to see which variables were found along with a higher percent of alternative vehicle usage. After we decided which variables to use as predictors (considered variables that had a correlation coefficient of >.60 only) we did a point based data frame in which we could summerize the ones that had more points by weighing the different variables and suming them to see which state would be the best decision to build a new alternative vehicle store. Our final findings were:
 
+1) The highest correlated factors with % alternative rate in our analysis was % of grad and post grad school, a highest income per capita and Highest % of population of 31-50.
+
 #### - District of columbia with a weighted total of 94.180727 points 
 ####  - Massachusetts with a weighted total 90.796292 points
 ####  - Washington  with a weighted total 87.621574 points
@@ -201,3 +217,5 @@ We first did the correlations to see which variables were found along with a hig
 Using the found correlations, we weighted an average to rate the states (100 points max)  
 
 ![final](Images/Final_Results.png)
+
+In conclusion, crossing most important % of each state,  DC, Massachusetts and Washington are the states with a steeper tendency of hybrids and electric car usage.
