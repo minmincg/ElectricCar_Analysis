@@ -75,6 +75,11 @@ Is there a correlation between electric car buying and charging stations availab
 
 ![Education heatmap](Images/Maps/grad_school.png)
 ![Post Grad heatmap](Images/Maps/post_grad.png)
+
+These results tell us that:
+
+- States where a bigger portion of the population achieved a Graduate or Post-Graduate Degree are more likely to have higher rates of Alternative Vehicles, making this a good predictor. We will be using these factors in our final results.
+- We found that the rates of people that only obtained High School degrees or less has a low correlation with a state having more alternative vehicles. We won't be using these factors in our final results
  
 --- 
  
