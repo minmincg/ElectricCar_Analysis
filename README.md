@@ -206,7 +206,7 @@ The correlation between Stations per vehicle and Alternative Rate(%) is 0.82 wit
 
 ![location](Images/Maps/State_stations.png)
 
-# Results:
+# Results and final conclusion:
 
 We first did the correlations to see which variables were found along with a higher percent of alternative vehicle usage. After we decided which variables to use as predictors (considered variables that had a correlation coefficient of >.60 only) we did a point based data frame in which we could summerize the ones that had more points by weighing the different variables and suming them to see which state would be the best decision to build a new alternative vehicle store. Our final findings were:
 
@@ -221,7 +221,7 @@ Using the found correlations, we weighted an average to rate the states (100 poi
 ![final](Images/Final_Results.png)
 
 
-# Conclusion:
+
 From the data shown aboveand cosidering only the tendency of hybrids and electric car usage, we can conclude that the best state to open a new electric-car factory and/or warehouse would be 
     1.- DC
     2.- Massachusetts 
