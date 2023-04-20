@@ -13,7 +13,7 @@ Exhaustive research and analysis about electric and hybrid cars usage along the 
 
 # Questions: 
 
-Main question: Which US State has a steeper tendency of hybrid and electric cars usage?
+Main question: Which US State has a steeper tendency of hybrid and electric cars usage to be able to answer the question: What state would be more convinient to build an electric car dealership?
 
 Is there a correlation between electric car buying and demographic characteristics of the population suchs as:
 * education level
