@@ -7,10 +7,6 @@
 * Roberto Barron
 
 
-## Project Description/Outline: 
-
-Exhaustive research and analysis about electric and hybrid cars usage along the US comparing to different variables. 
-
 # Questions: 
 
 Main question: Which US State has a steeper tendency of hybrid and electric cars usage to be able to answer the question: What state would be more convinient to build an electric car dealership?
@@ -26,6 +22,12 @@ Is there a correlation between electric car buying and political factors such as
 * state incentives?
 
 Is there a correlation between electric car buying and charging stations availability?
+
+
+## Project Description/Outline: 
+
+Exhaustive research and analysis about electric and hybrid cars usage along the US comparing to different variables. 
+We decided to use different variables and analyze them to see which variable had a correlation >0.60 and use those variables only to get the final results and be able to answer our first question. We had so many options to study and concluded to only study 5 of them to reduce project development time. The variables to be studied to start with were: education, political (taxes, democrat or republican, and state incentives), age by state, income per capita, 
 
 ## Datasets to be used: 
 
