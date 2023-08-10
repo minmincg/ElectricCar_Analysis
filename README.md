@@ -60,7 +60,7 @@ We decided to use different variables and analyze them to see which variable had
 
 ## Demographic Analysis
 
-### Add Analysis!!!!!!!!!!!!!! para que lo necesito? en que me sirve? que podemos concluir de esto?
+We used our variables as different perspectives that we could use to measure the probability of our new location being succesfull or not. We used different variables to make our analysis well-rounded.
 
 ### Education 
 
